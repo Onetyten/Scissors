@@ -1013,13 +1013,16 @@ width: 80%;
   font-size: 25px;
   text-align: center;
 }
+.mini-input-sec-4 select{
+  font-size: 12px;
+}
 
 
 .footer{
-  min-height: 100vh;
+  min-height: 250vh;
   max-width: 100vw;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   background-size: cover;
 }
@@ -1032,15 +1035,20 @@ gap: 10px;
 .footerlogo{
   width:100px ;
   height: 35px;
+  margin-top: 30px;
+
+
 }
 .footer-link img{
   width: 16px;
   height: 16px;
+  
+
 }
 .footer-link{
   display: flex;
-
-  gap: 25px;
+  gap: 15px;
+  margin-bottom: 50px;
 }
 .left-foot{
   display: flex;
@@ -1050,44 +1058,19 @@ gap: 10px;
 .foot-row{
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 30px;
 }
-.footcol{
-  display: flex;
-  flex-direction: column;
-}
+
 .foot-row h2{
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
   margin-bottom: 20px;
-
-
 }
 
-.foot-row p{
-  font-size: 16px;
-  margin-bottom: 5px;
-  line-height: 24px;
-
-}
-.footerleftimg{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 600px;
-  object-fit: contain;
-}
-.footerrightimg{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 600px;
-  object-fit: contain;
-}
 .bottom-text{
   position: absolute;
-  right: 150px;
+  right: 15px;
   bottom: 50px;
 }
 .right-foot p:hover{
